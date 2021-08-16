@@ -6,7 +6,7 @@ using System.Text;
 
 namespace DoIt
 {
-    public static class DoPrototype
+    public class DoPrototype
     {
         public static void Do()
         {
