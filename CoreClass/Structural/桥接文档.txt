@@ -1,0 +1,51 @@
+BlackCoffee:MakeCoffee | WhitecoffCoffee:MakeCoffee
+	making()
+	
+coffee{MakeCoffee}	
+	
+MediumCupCoffee:coffee | LargeCupCoffee:Coffee
+	make()[makeCoffee.Making()]
+
+______________________________________________________	
+	
+Blue:Icolor | Red:Icolor
+	Paint()
+	
+Shape{Icolor}
+
+Circle:Shape | Rectangle:Shape
+	Draw()[color.Paint()]
+	
+______________________________________________________
+
+ChangHong:TV | Samsung:TV
+	on() off() tuneChannel() 
+
+RemoteControl{TV}
+
+ConcreteRemote:RemoteControl
+	tv.On() tv.Off() tv.Off()
+	
+
+行为 （主动动作）
+	发声
+	动作
+
+人类行为
+	发声：说话
+	动作：游戏
+	
+动物行为
+	发声：叫
+	动作：打闹
+	
+抽象 被动动作 （调用行为对象）
+	听 学
+	
+实现 猫 的行为（主动和被动）
+	叫+听
+	
+实现 人类 的行为（主动和被动）
+	学：游戏
+	
+	
