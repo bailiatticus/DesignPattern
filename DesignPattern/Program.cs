@@ -17,6 +17,10 @@ namespace DesignPattern
             DoAdatper.Do();
             Console.WriteLine("\n\r DoBridge.Do()");
             DoBridge.Do();
+            Console.WriteLine("\n\r DoDecorator.Do()");
+            DoDecorator.Do();
+            Console.WriteLine("\n\r DoComposite.Do()");
+            DoComposite.Do();
 
             Console.ReadKey();
         }
