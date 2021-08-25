@@ -21,6 +21,10 @@ namespace DesignPattern
             DoDecorator.Do();
             Console.WriteLine("\n\r DoComposite.Do()");
             DoComposite.Do();
+            Console.WriteLine("\n\r DoFacade.Do()");
+            DoFacade.Do();
+            Console.WriteLine("\n\r DoFlyweight.Do()");
+            DoFlyweight.Do();
 
             Console.ReadKey();
         }
