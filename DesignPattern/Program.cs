@@ -25,6 +25,8 @@ namespace DesignPattern
             DoFacade.Do();
             Console.WriteLine("\n\r DoFlyweight.Do()");
             DoFlyweight.Do();
+            Console.WriteLine("\n\r DoProxy.Do()");
+            DoProxy.Do();
 
             Console.ReadKey();
         }
