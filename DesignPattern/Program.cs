@@ -31,6 +31,10 @@ namespace DesignPattern
             DoTemplateMethod.Do();
             Console.WriteLine("\n\r DoCommand.Do()");
             DoCommand.Do();
+            Console.WriteLine("\n\r DoIterator.Do()");
+            DoIterator.Do();
+            Console.WriteLine("\n\r DoObserver.Do()");
+            DoObserver.Do();
 
             Console.ReadKey();
         }
