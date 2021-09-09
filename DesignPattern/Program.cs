@@ -35,6 +35,8 @@ namespace DesignPattern
             DoIterator.Do();
             Console.WriteLine("\n\r DoObserver.Do()");
             DoObserver.Do();
+            Console.WriteLine("\n\r DoMediator.Do()");
+            DoMediator.Do();
 
             Console.ReadKey();
         }
