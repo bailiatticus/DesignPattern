@@ -37,6 +37,8 @@ namespace DesignPattern
             DoObserver.Do();
             Console.WriteLine("\n\r DoMediator.Do()");
             DoMediator.Do();
+            Console.WriteLine("\n\r DoState.Do()");
+            DoState.Do();
 
             Console.ReadKey();
         }
