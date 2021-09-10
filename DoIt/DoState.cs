@@ -10,13 +10,11 @@ namespace DoIt
         public static void Do()
         {
             Gamer me = new Gamer("百里");
+            for(int i =0; i < 21; i++)
+            {
+                me.PlayGames();
+            }
 
-            me.PlayGames();
-
-            BadState badState = new BadState();
-
-            me.SetState(badState);
-            me.PlayGames();
         }
     }
 }
