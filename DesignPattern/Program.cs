@@ -43,6 +43,8 @@ namespace DesignPattern
             DoStragety.Do();
             Console.WriteLine("\n\r DoCOR.Do()");
             DoCOR.Do();
+            Console.WriteLine("\n\r DoVistor.Do()");
+            DoVistor.Do();
 
             Console.ReadKey();
         }
