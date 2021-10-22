@@ -45,6 +45,8 @@ namespace DesignPattern
             DoCOR.Do();
             Console.WriteLine("\n\r DoVistor.Do()");
             DoVistor.Do();
+            Console.WriteLine("\n\r DoMemento.Do()");
+            DoMemento.Do();
 
             Console.ReadKey();
         }
